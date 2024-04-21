@@ -1,0 +1,26 @@
+U
+
+�7c�@sTdZddlmZmZmZddlmZddlmZddl	m
+Z
+m
+Z
+Gdd�de
+�ZdS)	zImproved model.states�)�Column�Integer�String)�relationship)�declarative_base)�Base�Cityc@s>eZdZdZdZeedd�Zeed�dd�Z	e
+dd	d
+d
+�Z
+dS)
+�Statea7Represents a state for a MySQL database.
+    Attributes:
+        __tablename__ (str): The name of the MySQL table to store States.
+        id (sqlalchemy.Integer): The state's id.
+        name (sqlalchemy.String): The state's name.
+        cities (sqlalchemy.orm.relationship): The State-City relationship.
+    ZstatesT)Z
+primary_key�F)Znullabler�statez
+all, delete)ZbackrefZcascadeN)�__name__�
+__module__�__qualname__�__doc__Z
+__tablename__rr�idr�namer�cities�rr�f/home/vincent/alx-higher_level_programming/0x0F-python-object_relational_mapping/relationship_state.pyr		s
+r	N)
+r�
+sqlalchemyrrr�sqlalchemy.ormrZsqlalchemy.ext.declarativer�relationship_cityrrr	rrrr�<module>s

@@ -1,0 +1,14 @@
+U
+
+9�c�@sPdZddlmZddlmZmZmZddlmZe�Z	e�Z	Gdd�de	�Z
+dS)zcpython file that contains the class definition of
+a State and an instance Base = declarative_base()�)�unique)�Column�Integer�String)�declarative_basec@s6eZdZdZdZeeddddd�Zeed�dd�Z	dS)	�Statez
+Class StateZstatesTF)Z
+autoincrementZ
+primary_key�nullabler�)rN)
+�__name__�
+__module__�__qualname__�__doc__Z
+__tablename__rr�idr�name�rr�_/home/vincent/alx-higher_level_programming/0x0F-python-object_relational_mapping/model_state.pyrs�rN)
+r
+Zenumr�
+sqlalchemyrrrZsqlalchemy.ext.declarativer�Baserrrrr�<module>s

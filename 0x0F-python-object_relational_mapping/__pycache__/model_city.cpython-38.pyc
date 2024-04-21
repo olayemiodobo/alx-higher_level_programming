@@ -1,0 +1,18 @@
+U
+
+4c�@sNdZddlmZddlmZmZmZmZddlm	Z	e�Z
+Gdd�de
+�Z
+dS)zDefinition of the City class�)�declarative_base)�Column�Integer�String�
+ForeignKey)�relationshipc@sHeZdZdZdZeeddddd�Zeed�dd�Z	eee
+d�dd�Z
+d	S)
+�Cityz
+Class CityZcitiesTF)�
+autoincrement�
+primary_key�nullable�unique�)r
+z	states.idN)�__name__�
+__module__�__qualname__�__doc__�
+__tablename__rr�idr�namer�state_id�rr�^/home/vincent/alx-higher_level_programming/0x0F-python-object_relational_mapping/model_city.pyr
+s�rN)r�sqlalchemy.ext.declarativer�
+sqlalchemyrrrr�sqlalchemy.ormr�Baserrrrr�<module>s
